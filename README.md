@@ -1,1 +1,3 @@
 # b-g
+
+The images in this walkthrough project are not the same ones as the ones provided, as they are clearly AI generated. These make the website look cheap and unprofessional, which makes the website fail user story 2 - "High quality images and engaging descriptions". I have replaced the offending images with placeholder images of the correct dimensions from https://picsum.photos/ . I hope that one day the images provided with this walkthrough project meet the high quality standards needed for a professionally made website.
