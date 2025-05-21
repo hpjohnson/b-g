@@ -18,6 +18,8 @@
 /* general styles */
 body {
     font-family: var(--primary-font);
+    /* pushes content below floating navbar */
+    padding-top: 57.15px;
 }
 
 h1,
@@ -147,18 +149,6 @@ h2 {
 #contact .table-dark * {
     background-color: transparent;
 }
-
-/* temp css to visualise grids */
-
-/* .container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgrey;
-} */
 
 /* media queries */
 
