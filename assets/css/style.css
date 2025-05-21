@@ -71,6 +71,12 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* game library cards */
+#new-games .card,
+#fav-games .card {
+    border: none;
+}
+
 /* temp css to visualise grids */
 
 /* .container,
@@ -87,6 +93,7 @@ h2 {
 
 /* medium devices 768px+ */
 @media screen and (min-width: 768px) {
+
     /* make services cards same height */
     #services .card-body {
         min-height: 191px;
@@ -95,6 +102,7 @@ h2 {
 
 /* large devices 992px+ */
 @media screen and (min-width: 992px) {
+
     /* make services cards same height */
     #services .card-body {
         min-height: auto;
@@ -103,6 +111,7 @@ h2 {
 
 /* large devices 1200px+ */
 @media screen and (min-width: 1200px) {
+
     /* make services cards same height */
     #services .card-body {
         min-height: 220px;
@@ -111,6 +120,7 @@ h2 {
 
 /* large devices 1400px+ */
 @media screen and (min-width: 1400px) {
+
     /* make services cards same height */
     #services .card-body {
         min-height: 195px;
