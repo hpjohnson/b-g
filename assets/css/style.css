@@ -95,6 +95,15 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* events section */
+#discount-note {
+    background-color: var(--highlight-color);
+    color: white;
+    /* max-width: 350px; */
+    padding: 7px 0;
+    /* min-width: 300px; */
+}
+
 /* game library cards */
 #new-games .card,
 #fav-games .card {
@@ -153,12 +162,27 @@ h2 {
 
 /* media queries */
 
+/* for very small screens */
+@media screen and (max-width: 384px) {
+
+    /* fix the table in the  events section*/
+    #events .table {
+        font-size: 0.75rem;
+    }
+}
+
+
 /* medium devices 768px+ */
 @media screen and (min-width: 768px) {
 
     /* make services cards same height */
     #services .card-body {
         min-height: 191px;
+    }
+
+    /* limit the size of the discount notification so it looks nice on larger screens*/
+    #discount-note {
+        max-width: 300px;
     }
 }
 
