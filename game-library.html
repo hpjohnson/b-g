@@ -222,6 +222,52 @@
                 </div>
             </div>
         </section>
+        <!-- reserve a game section -->
+        <section id="reserve" class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <h2 class="display-6">Reserve a Game</h2>
+                </div>
+                <div class="col-12 col-md-8">
+                    <p>Reserve a board game for your next visit to Boardwalk Games. Pick your challenge, and let the
+                        adventure begin! Fill out your details and preferred game below, and we'll have it set aside for
+                        you when you arrive.</p>
+                    <form action="success.html" method="get">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="event-type" class="form-label">Event type</label>
+                                <select id="event-type" class="form-select" name="event-type" required>
+                                    <option value="" selected>Select</option>
+                                    <option value="regular-play">Reserve a table</option>
+                                    <option value="dnd">Dungeons & Dragons</option>
+                                    <option value="retro-night">Retro Game Night</option>
+                                    <option value="tournament">Tournament</option>
+                                    <option value="kids-party">Kids party</option>
+                                </select>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn custom-button-outline">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- footer element for semantics -->
